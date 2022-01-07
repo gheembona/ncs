@@ -336,7 +336,7 @@
 
 [data-tab-index], [data-top-nav] {display: none;width: 1240px;}
 
-@media(max-width: 1530px){
+@media(max-width: 1536px){
     .blind-wrap .calendar-area::before {background-size: 55%;margin-left: 40px;top: -25px;}
     .ncssrch-left-btnbox {top: -90px;right: 0;left: auto;flex-direction: unset;}
     .ncssrch-left-btnbox > button.active, 
