@@ -165,7 +165,7 @@ $(document).ready(function(){
     });
 });
 
-
+/*
 // 텝메뉴
 $(document).ready(function() {    
     // 1depth1
@@ -317,7 +317,7 @@ $(document).ready(function() {
         $("#" + OnTab).stop().fadeIn(200);
     });
 });
-
+*/
 
 // 스텝별 화면 전환 : NCS및학습모듈 검색 분야별 검색 대분류 중분류 보기 등
 $(document).ready(function(){
@@ -555,13 +555,13 @@ $(document).ready(function (){
 });*/
 
 // 데이터테이블 스트록 디자인
-$(document).ready(function (){
-	$("tr").each(function (){
-		if($(this).children().size() == 1){
-			$(this).children().css('border-right','0');
-		}
-	});
-});
+// $(document).ready(function (){
+// 	$("tr").each(function (){
+// 		if($(this).children().size() == 1){
+// 			$(this).children().css('border-right','0');
+// 		}
+// 	});
+// });
 
 //skip navigation 이동후 포커싱 유지
 $(document).ready(function(){
