@@ -80,18 +80,12 @@
 .screen-out{position: absolute;clip: rect(1px, 1px, 1px, 1px);overflow: hidden;height: 1px;width: 1px;padding: 0;border: 0;top: 50%;}
 
 /* 상단 주 메뉴 컬러 설정 */
-.top_menu > ul > li > a:hover {color:#39f;}
-.top_menu > ul > li.On > a {color:#39f; border-bottom:3px solid #39f; font-weight : bold;}
-.top_depth2_bg {border-bottom:1px solid #39f;}
-.top_menu > ul > li > ul > li > a:hover {color:#39f;}
+.top_menu > ul > li > a:hover {color: #0e76bb;}
+.top_menu > ul > li.On > a {color:#0e76bb; border-bottom:3px solid #0e76bb; font-weight : bold;}
+.top_depth2_bg {border-bottom: 1px solid #0e76bb;}
+.top_menu > ul > li > ul > li > a:hover {color: #0e76bb;}
 
-/* 상단 주 메뉴 2depth 가로 위치 조정 */
-.top_menu > ul > li:nth-child(1) > ul {padding-left:0px;} /* NCS란? */
-.top_menu > ul > li:nth-child(2) > ul {padding-left:0;} /* NCS 및 학습모듈검색 */
-.top_menu > ul > li:nth-child(3) > ul {padding-left:386px;} /* 경력개발 */
-.top_menu > ul > li:nth-child(4) > ul {padding-left:538px;} /* 위 키 */
-.top_menu > ul > li:nth-child(5) > ul {padding-left:380px;} /* 자료실 */
-.top_menu > ul > li:nth-child(6) > ul {padding-left:550px;} /* Q&A 센터 */
+
 
 /* 퀵메뉴 컬러설정 */
 .quick_menu {border: none !important;}

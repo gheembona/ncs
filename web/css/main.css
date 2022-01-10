@@ -52,7 +52,7 @@
 .ncs-gnb-bar > li.report-mn {position: relative;}
 .ncs-gnb-bar > li.report-mn::before {content: "";width: 14px;height: 14px;position: absolute;top: 0;left: 50%;display: block;background-image: url(../img/icon_siren.png);background-position: center;transform: translate(-50%, 3px);}
 
-.ncs-header-gnb { border-bottom: 1px solid rgb(214, 216, 217); }
+.ncs-header-gnb { border-bottom: 1px solid rgb(214, 216, 217); position: relative;}
 .ncs-content { position: relative; display: flex; flex-direction: column; place-content: center; }
 .sect-guide { width: 1240px; margin: auto; }
 .sect-guide-tit {font-size: 2.333em;font-weight: 600;letter-spacing: -0.05em;line-height: 1.2em;margin-bottom: 40px;}
@@ -346,3 +346,8 @@
     .ncssrch-left-btnbox > button {color: #333;padding: 0 20px;width: auto;font-weight: 400;}
     .ncssrch-wrap::before {display:none;}
 }
+
+
+
+
+/* menu */
